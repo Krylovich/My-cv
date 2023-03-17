@@ -35,8 +35,36 @@ a {
 
 /* Main */
 .main {
+    margin: 20px auto;
     width: 100%;
     max-width: 1024px;
     font-size: 18px;
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    position: relative;
+}
+
+/* content */
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+}
+
+.content-info-left {
+    height: 100%;
+    width: 350px;
+    background-color: #292929;
+    color: #fff;
+}
+
+.content-info-block {
+    background-color: #2f2f2f;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.content-info-block-line {
+    display: flex;
+    flex-direction: row;
 }
