@@ -52,20 +52,21 @@ a {
 
 .content-info-left {
     height: 100%;
-    width: 350px;
+    width: 340px;
     background-color: #292929;
     color: #fff;
     padding-top: 310px;
 }
 
+/* Content Line */
 .content-info-block {
-    background-color: #2f2f2f;
-    position: absolute;
-    top: 30px;
-    left: 0;
+  background-color: #2f2f2f;
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  left: 0;
 }
 
-/* Content Line */
 .content-info-block-line {
     display: flex;
     flex-direction: row;
@@ -75,17 +76,17 @@ a {
 .content-info-block-line img {
   width: 190px;
   height: 190px;
-  margin: 20px 80px;
+  margin: 20px 75px;
   border-radius: 150px;
 }
 
 .content-info-block-line-name {
-  margin: 35px 25px;
-  width: 327px;
+  margin: 35px 20px;
+  width: 310px;
 }
 
 .content-info-block-line-name h1 {
-  font-size: 38px;
+  font-size: 36px;
   color: #fff;
   margin-bottom: 9px;
 }
@@ -137,9 +138,34 @@ a {
 }
 
 .content-info-block-line-contacts ul {
-  margin-left: 15px;
+  margin-left: 10px;
   padding-left: 10px;
   list-style: none;
 }
+
+.content-info-block-line-contacts ul li {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.content-info-block-line-contacts ul li a {
+  color: #ffffffcb;
+}
+
+.content-info-block-line-contacts ul li:hover a {
+  color: #fff;
+}
+
+.content-info-block-line-contacts ul li .icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 0;
+  margin: 0 15px 0 0;
+}
+
+
 
 
