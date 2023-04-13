@@ -52,7 +52,8 @@ a {
 
 .content-info-left {
     height: 100%;
-    width: 340px;
+    width: 36%;
+    max-width: 340px;
     background-color: #292929;
     color: #fff;
     padding-top: 266px;
@@ -331,9 +332,60 @@ a {
 }
 
 .hobby-list li p {
+  font-family: 'Montserrat', sans-serif;
   color: #FFFFFF;
   font-size: 14px;
   text-align: center;
+  font-weight: 600;
+}
+
+/* Info right */
+.content-info-right {
+  margin-top: 266px;
+  margin-left: 20px;
+  padding-right: 20px;
+  width: 63%;
+}
+
+/* Education */
+.education {
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.education-title {
+  margin: 25px 0 20px;
+  font-size: 18px;
+}
+
+.name-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.education-curse {
+  color:#292929;
+  font-size: 14px;
+}
+
+.name-date p {
+  color:#6DA3D7;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.education-info {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.2;
+  margin-top: 3px;
+}
+
+.education-title-more {
+  font-size: 16px;
+  margin: 25px 0 20px;
 }
 
 
