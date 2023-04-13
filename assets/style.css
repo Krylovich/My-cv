@@ -77,7 +77,7 @@ a {
 .content-info-block-line img {
   width: 190px;
   height: 190px;
-  margin: 20px 75px;
+  margin: 23px 75px;
   border-radius: 150px;
 }
 
@@ -339,6 +339,25 @@ a {
   font-weight: 600;
 }
 
+.btn {
+ display: inherit;
+  text-align: center;
+  background-color:#2f2f2f;
+  border: none;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 30px 50px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color:#c2c2c2;
+}
+
 /* Info right */
 .content-info-right {
   margin-top: 266px;
@@ -348,13 +367,18 @@ a {
 }
 
 /* Education */
-.education {
+.education,
+.work,
+.portfolio {
   padding-bottom: 25px;
   border-bottom: 1px solid rgb(194, 194, 194);
 }
-.education-title {
+
+.education-title,
+.work-title,
+.portfolio-title {
   margin: 25px 0 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .name-date {
@@ -365,7 +389,8 @@ a {
   margin-top: 20px;
 }
 
-.education-curse {
+.education-curse,
+.work-place {
   color:#292929;
   font-size: 14px;
 }
@@ -376,16 +401,71 @@ a {
   font-weight: 600;
 }
 
-.education-info {
-  font-size: 14px;
+.education-info,
+.work-info {
+  font-size: 13px;
   font-style: italic;
   line-height: 1.2;
   margin-top: 3px;
 }
 
 .education-title-more {
-  font-size: 16px;
-  margin: 25px 0 20px;
+  font-size: 15px;
+  margin: 20px 0 20px;
+}
+
+.work-list {
+  margin-top: 3px;
+  margin-left: 0;
+  font-size: 12px;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.portfolio-cases {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.case {
+  width: 24.1%;
+  position: relative;
+}
+
+.case img {
+  width: 100%;
+  position: absolute;
+}
+
+.case-name {
+  position: relative;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 400;
+  margin: 26% auto;
+  text-align: center;
+  opacity: 1;
+  transition: all ease-in-out 0.3s;
+}
+
+.case-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  transition: all ease-in-out 0.3s;
+}
+
+.case:hover .case-name {
+  opacity: 0;
+}
+
+.case:hover .case-info {
+  opacity: 1;
 }
 
 
