@@ -477,11 +477,6 @@ a {
   text-align: justify;
 }
 
-@media (max-width: 1025px) {
-  .main {
-    margin: 20px;
-  }
-}
 
 
 
