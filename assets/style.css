@@ -224,7 +224,7 @@ a {
 }
 
 .skills-list li {
-  padding: 5px 0;
+  padding: 7px 0;
 }
 
 .lang-list li {
@@ -376,9 +376,14 @@ a {
 
 .education-title,
 .work-title,
-.portfolio-title {
-  margin: 25px 0 20px;
+.portfolio-title,
+.about-title {
+  margin: 20px 0;
   font-size: 16px;
+}
+
+.education-title {
+  margin-top: 25px;
 }
 
 .name-date {
@@ -436,36 +441,41 @@ a {
 .case img {
   width: 100%;
   position: absolute;
+  filter: brightness(38%);
+  transition: all linear 0.3s;
 }
 
 .case-name {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 13px;
+  height: 26px;
   color: #fff;
-  font-weight: 400;
-  margin: 26% auto;
+  font-weight: 600;
+  margin: 38px auto;
   text-align: center;
   opacity: 1;
-  transition: all ease-in-out 0.3s;
-}
-
-.case-info {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  font-size: 12px;
-  color: #fff;
-  font-weight: 400;
-  text-align: center;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.35s;
 }
 
 .case:hover .case-name {
   opacity: 0;
 }
 
+.case:hover img {
+  filter: brightness(100%);
+}
+
 .case:hover .case-info {
   opacity: 1;
+}
+
+.about-text {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: justify;
 }
 
 
