@@ -36,8 +36,7 @@ a {
 /* Main */
 .main {
     margin: 20px auto;
-    width: 100%;
-    max-width: 1024px;
+    width: 1024px;
     font-size: 18px;
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
     position: relative;
@@ -477,6 +476,13 @@ a {
   font-weight: 500;
   text-align: justify;
 }
+
+@media (max-width: 1025px) {
+  .main {
+    margin: 20px;
+  }
+}
+
 
 
 
